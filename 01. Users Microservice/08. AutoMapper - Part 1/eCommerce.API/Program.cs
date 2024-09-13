@@ -15,7 +15,7 @@ builder.Services.AddControllers().AddJsonOptions(options => {
   options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
 
-builder.Services.AddAutoMapper(typeof(ApplicationUserMappingProfile).Assembly);
+builder.Services.AddAutoMapper(typeof(ApplicationUserMappingProfile));
 
 //Build the web application
 var app = builder.Build();
