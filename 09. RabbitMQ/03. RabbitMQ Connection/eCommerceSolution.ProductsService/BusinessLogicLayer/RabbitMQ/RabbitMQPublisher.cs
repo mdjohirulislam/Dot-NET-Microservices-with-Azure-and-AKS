@@ -27,7 +27,7 @@ public class RabbitMQPublisher : IRabbitMQPublisher, IDisposable
     };
     _connection = connectionFactory.CreateConnection();
 
-    _channel = connection.CreateModel();
+    _channel = _connection.CreateModel();
   }
 
 

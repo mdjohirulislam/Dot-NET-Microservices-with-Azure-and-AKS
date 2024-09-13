@@ -1,4 +1,4 @@
-﻿namespace eCommerce.OrdersService.BusinessLogicLayer.RabbitMQ
+﻿namespace eCommerce.OrdersMicroservice.BusinessLogicLayer.RabbitMQ
 {
   public interface IRabbitMQProductNameUpdateConsumer
   {

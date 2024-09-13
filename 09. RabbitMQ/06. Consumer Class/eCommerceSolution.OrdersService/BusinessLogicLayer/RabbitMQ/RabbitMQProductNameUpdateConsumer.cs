@@ -3,7 +3,7 @@ using RabbitMQ.Client;
 using System.Text;
 using System.Text.Json;
 
-namespace eCommerce.OrdersService.BusinessLogicLayer.RabbitMQ;
+namespace eCommerce.OrdersMicroservice.BusinessLogicLayer.RabbitMQ;
 
 public class RabbitMQProductNameUpdateConsumer : IDisposable, IRabbitMQProductNameUpdateConsumer
 {
