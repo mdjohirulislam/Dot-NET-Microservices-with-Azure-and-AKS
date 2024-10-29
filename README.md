@@ -1,5 +1,5 @@
 # Asp Net Core Microservices
- ASP.NET Core Microservices by Web University
+ Web University by Harsha Vardhan
 
 Download the notes and cheat sheets
 Please take a few moments to share your thoughts through this [**Google Form**](https://forms.gle/sxqW3bCoGdbkZvuu9).
